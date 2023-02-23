@@ -1,4 +1,4 @@
-/*Arvore*/
+/*Arvore Binaria*/
 
 #include<stdio.h>
 #include<stdlib.h>
