@@ -81,19 +81,21 @@ void pre_ordem(struct no *raiz){
 }
 
 int main() {
-struct no *raiz = 0;
+    struct no *raiz = 0;
 
 
-raiz = inserir(raiz, 10);
-raiz = inserir(raiz, 20);
-raiz = inserir(raiz, 5);
-raiz = inserir(raiz, 40);
-raiz = inserir(raiz, 35);
-raiz = inserir(raiz, 18);
-raiz = inserir(raiz, 12);
-pre_ordem(raiz);
-printf("\n");
-raiz = remover(raiz, 35);
-pre_ordem(raiz);
-printf("\n");
+    raiz = inserir(raiz, 10);
+    raiz = inserir(raiz, 20);
+    raiz = inserir(raiz, 5);
+    raiz = inserir(raiz, 40);
+    raiz = inserir(raiz, 35);
+    raiz = inserir(raiz, 18);
+    raiz = inserir(raiz, 12);
+    pre_ordem(raiz);
+    printf("\n");
+    raiz = remover(raiz, 35);   
+    pre_ordem(raiz);    
+    printf("\n");
+
+    return 0;
 }
